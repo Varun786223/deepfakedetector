@@ -1,11 +1,9 @@
-Here's a well-structured `README.md` file for your **Deepfake Detector** project:
-
-```markdown
 # Deepfake Detector 🔍
 
 An AI-powered web application designed to detect and analyze manipulated media (deepfakes) in images, videos, and live camera feeds.
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=Deepfake+Detector+Demo) *(Replace with actual screenshot)*
+![Screenshot 2025-05-07 195711](https://github.com/user-attachments/assets/df0cab24-c8f9-4168-8f90-d5a6a672c3d8)
+
 
 ## Features ✨
 
@@ -48,80 +46,80 @@ An AI-powered web application designed to detect and analyze manipulated media (
    ```bash
    git clone https://github.com/yourusername/deepfake-detector.git
    cd deepfake-detector
-   ```
+Install dependencies:
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+bash
+npm install
+Set up environment variables:
+Create a .env file with your Gemini API key:
 
-3. **Set up environment variables**:
-   Create a `.env` file with your Gemini API key:
-   ```
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
+VITE_GEMINI_API_KEY=your_api_key_here
+Run the development server:
 
-4. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
+bash
+npm run dev
+Open in browser:
+Visit http://localhost:3000
 
-5. **Open in browser**:
-   Visit `http://localhost:3000`
+Usage Guide 🖥️
+Upload Media:
 
-## Usage Guide 🖥️
+Drag & drop or select image/video files
 
-1. **Upload Media**:
-   - Drag & drop or select image/video files
-   - Or use live webcam feed
+Or use live webcam feed
 
-2. **Configure Analysis**:
-   - Toggle detection methods
-   - Adjust sensitivity sliders
+Configure Analysis:
 
-3. **View Results**:
-   - Interactive report dashboard
-   - Export as PDF
-   - See confidence scores per detection method
+Toggle detection methods
 
-## Project Impact 🌍
+Adjust sensitivity sliders
 
-- **Journalism**: Verify news media authenticity
-- **Social Media**: Check viral content
-- **Legal**: Detect evidence tampering
-- **Education**: Learn about deepfake technology
+View Results:
 
-## Challenges & Solutions ⚡
+Interactive report dashboard
 
-| Challenge | Our Approach |
-|-----------|--------------|
-| Evolving deepfake tech | Continuous model updates |
-| False positives/negatives | Multi-method verification |
-| Processing efficiency | Optimized web workers |
-| Privacy concerns | Client-side processing where possible |
+Export as PDF
 
-## Future Roadmap 🚀
+See confidence scores per detection method
 
-- [ ] Mobile app development
-- [ ] API service for developers
-- [ ] Enhanced real-time analysis
-- [ ] Crowdsourced verification network
+Project Impact 🌍
+Journalism: Verify news media authenticity
 
-## Contributing 🤝
+Social Media: Check viral content
 
+Legal: Detect evidence tampering
+
+Education: Learn about deepfake technology
+
+Challenges & Solutions ⚡
+Challenge	Our Approach
+Evolving deepfake tech	Continuous model updates
+False positives/negatives	Multi-method verification
+Processing efficiency	Optimized web workers
+Privacy concerns	Client-side processing where possible
+Future Roadmap 🚀
+Mobile app development
+
+API service for developers
+
+Enhanced real-time analysis
+
+Crowdsourced verification network
+
+Contributing 🤝
 We welcome contributions! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
 
-## License 📄
+Fork the repository
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+Create a feature branch
 
----
+Submit a pull request
 
-**Deepfake Detector** represents a critical tool in combating digital misinformation by combining cutting-edge AI with accessible design.
-```
+License 📄
+This project is licensed under the MIT License - see LICENSE for details.
+
+Deepfake Detector represents a critical tool in combating digital misinformation by combining cutting-edge AI with accessible design.
+
 
 ### Recommended Additions:
 1. Add actual screenshots in place of the placeholder
@@ -130,4 +128,3 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 4. Consider adding a live demo link if deployed
 5. Include system requirements if specific (e.g., GPU requirements)
 
-Would you like me to modify any section or add specific details about the implementation?
